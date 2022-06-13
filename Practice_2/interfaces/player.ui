@@ -1,0 +1,2164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Modern</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	border: none;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true">QStackedWidget{
+	background-color: rgb(48, 48, 48);
+	color: rgb(48, 48, 48);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <widget class="QWidget" name="page_1">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="widget" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 1, 0, 255), stop:1 rgba(182, 16, 53, 255));</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_4" stretch="1,8,0">
+             <property name="spacing">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_2" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>150</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(26, 27, 34, 255), stop:1 rgba(86, 52, 62, 255));
+border: none;</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_6" stretch="1,0,2">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label">
+                    <property name="styleSheet">
+                     <string notr="true">QLabel{
+	border: none;
+	font: 63 14pt &quot;Segoe UI Semibold&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>     Моя музыка</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_18">
+                    <item>
+                     <widget class="QPushButton" name="CurrentTrack">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>70</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>18</pointsize>
+                        <weight>7</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	font: 63 18pt &quot;Segoe UI Semibold&quot;;
+}
+QPushButton::pressed{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	font: 63 18pt &quot;Segoe UI Semibold&quot;;
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string>PushButton</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="PlayCurrentTrack">
+                      <property name="maximumSize">
+                       <size>
+                        <width>70</width>
+                        <height>70</height>
+                       </size>
+                      </property>
+                      <property name="baseSize">
+                       <size>
+                        <width>0</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-radius: 25px;
+	font: 63 22pt &quot;Segoe UI Semibold&quot;;
+}
+QPushButton::pressed{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-radius: 25px;
+	font: 63 22pt &quot;Segoe UI Semibold&quot;;
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string>⯈</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widget_4" native="true">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border: none;</string>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0">
+                     <property name="spacing">
+                      <number>5</number>
+                     </property>
+                     <property name="sizeConstraint">
+                      <enum>QLayout::SetDefaultConstraint</enum>
+                     </property>
+                     <property name="leftMargin">
+                      <number>5</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>5</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>5</number>
+                     </property>
+                     <item>
+                      <widget class="QPushButton" name="TracksButton">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>50</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(111, 59, 63);
+	border: none;
+	border-radius: 25px;
+	font: 63 22pt &quot;Segoe UI Semibold&quot;;
+}
+QPushButton::pressed{
+	color: rgb(255, 255, 255);
+	background-color: rgb(111, 59, 63);
+	border: none;
+	border-radius: 25px;
+	font: 63 22pt &quot;Segoe UI Semibold&quot;;
+}
+
+</string>
+                       </property>
+                       <property name="text">
+                        <string>ВСЕ ТРЕКИ</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="PlaylistsButton">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>50</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-radius: 25px;
+	font: 63 22pt &quot;Segoe UI Semibold&quot;;
+}
+QPushButton::pressed{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-radius: 25px;
+	font: 63 22pt &quot;Segoe UI Semibold&quot;;
+}
+</string>
+                       </property>
+                       <property name="text">
+                        <string>ПЛЕЙЛИСТЫ</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QListWidget" name="Tracks">
+               <property name="styleSheet">
+                <string notr="true">QListWidget {
+    show-decoration-selected: 1;
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	color: rgba(255, 255, 255, 0);
+}
+
+QListWidget::item:alternate {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+
+QListWidget::item:selected {
+	background-color: rgba(255, 255, 255, 40);
+	color: rgba(255, 255, 255, 0);
+	border: none;
+}
+
+QListWidget::item:hover {
+	background-color: rgba(255, 255, 255, 20);
+	border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+	background-color: rgb(148, 13, 41);
+    width: 7px;
+    margin: 0px 0 0 0;
+	value:10
+}
+
+QScrollBar::handle:vertical {
+	background-color: rgb(173, 68, 74);
+    min-height: 5px;
+    max-height: 6px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+	color: rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+    width: 0px;
+	value:0
+}
+
+QScrollBar::handle:horizontal {
+	background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+QScrollBar::add-line:horizontal {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+    border: none;
+}</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_17">
+               <item>
+                <widget class="QPushButton" name="AddTrackToPlayer">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>70</width>
+                   <height>70</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(202, 79, 87);
+border-radius: 35px;
+font: 30pt &quot;MS Gothic&quot;;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>𝅘𝅥𝅮+</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="widget_3" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 1, 0, 255), stop:1 rgba(182, 16, 53, 255));</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_8" stretch="1,8,0">
+             <property name="spacing">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_7" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>150</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(26, 27, 34, 255), stop:1 rgba(86, 52, 62, 255));
+border: none;</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_9" stretch="0,0,1">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_2">
+                    <property name="styleSheet">
+                     <string notr="true">QLabel{
+	border: none;
+	font: 63 14pt &quot;Segoe UI Semibold&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>     Моя музыка</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_19">
+                    <item>
+                     <widget class="QPushButton" name="CurrentTrack_2">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>70</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	font: 63 18pt &quot;Segoe UI Semibold&quot;;
+}
+QPushButton::pressed{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	font: 63 18pt &quot;Segoe UI Semibold&quot;;
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string>PushButton</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="PlayCurrentTrack_2">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>70</width>
+                        <height>70</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-radius: 25px;
+	font: 63 22pt &quot;Segoe UI Semibold&quot;;
+}
+QPushButton::pressed{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-radius: 25px;
+	font: 63 22pt &quot;Seg
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>⯈</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widget_8" native="true">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border: none;</string>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,0">
+                     <property name="spacing">
+                      <number>5</number>
+                     </property>
+                     <property name="sizeConstraint">
+                      <enum>QLayout::SetDefaultConstraint</enum>
+                     </property>
+                     <property name="leftMargin">
+                      <number>5</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>5</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>5</number>
+                     </property>
+                     <item>
+                      <widget class="QPushButton" name="TracksButton_2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>50</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(255, 255, 255);
+border: none;
+border-radius: 25px;
+font: 63 22pt &quot;Segoe UI Semibold&quot;;
+</string>
+                       </property>
+                       <property name="text">
+                        <string>ВСЕ ТРЕКИ</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="PlaylistsButton_2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>50</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(111, 59, 63);
+border: none;
+border-radius: 25px;
+font: 63 22pt &quot;Segoe UI Semibold&quot;;
+</string>
+                       </property>
+                       <property name="text">
+                        <string>ПЛЕЙЛИСТЫ</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QListWidget" name="Playlists">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QListWidget {
+    show-decoration-selected: 1;
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QListWidget::item:alternate {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+
+QListWidget::item:selected {
+	background-color: rgba(255, 255, 255, 40);
+	border: none;
+}
+
+QListWidget::item:hover {
+	background-color: rgba(255, 255, 255, 20);
+	border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+	background-color: rgb(148, 13, 41);
+    width: 7px;
+    margin: 0px 0 0 0;
+	value:10
+}
+
+QScrollBar::handle:vertical {
+	background-color: rgb(173, 68, 74);
+    min-height: 5px;
+    max-height: 6px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+	color: rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+    width: 0px;
+	value:0
+}
+
+QScrollBar::handle:horizontal {
+	background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+QScrollBar::add-line:horizontal {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+    border: none;
+}</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QPushButton" name="AddPlaylist">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>70</width>
+                   <height>70</height>
+                  </size>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(202, 79, 87);
+border-radius: 35px;
+font: 45pt &quot;MS Gothic&quot;;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="DeletePlaylists">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>70</width>
+                   <height>70</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(202, 79, 87);
+border-radius: 35px;
+font: 25pt &quot;MS Gothic&quot;;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>🗑️</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_11">
+       <layout class="QVBoxLayout" name="verticalLayout_25">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="widget_9" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 1, 0, 255), stop:1 rgba(182, 16, 53, 255));</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_23">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_24" stretch="1,0,0">
+             <property name="spacing">
+              <number>3</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_10" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(58, 68, 76);
+border: none;</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_14">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_15" stretch="1,7">
+                  <property name="spacing">
+                   <number>10</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>10</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="PlaylistDeleteBack">
+                    <property name="styleSheet">
+                     <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>🡠</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_4">
+                    <property name="styleSheet">
+                     <string notr="true">QLabel{
+	border: none;
+	font: 63 16pt &quot;Segoe UI Semibold&quot;;
+	color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>Выберите плейлисты</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QListWidget" name="PlaylistToDelete">
+               <property name="styleSheet">
+                <string notr="true">QListWidget {
+    show-decoration-selected: 1;
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QListWidget::item:alternate {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+
+QListWidget::item:selected {
+	background-color: rgba(255, 255, 255, 40);
+	border: none;
+}
+
+QListWidget::item:hover {
+	background-color: rgba(255, 255, 255, 20);
+	border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+	background-color: rgb(148, 13, 41);
+    width: 7px;
+    margin: 0px 0 0 0;
+	value:10
+}
+
+QScrollBar::handle:vertical {
+	background-color: rgb(173, 68, 74);
+    min-height: 5px;
+    max-height: 6px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+	color: rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+    width: 0px;
+	value:0
+}
+
+QScrollBar::handle:horizontal {
+	background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+QScrollBar::add-line:horizontal {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+    border: none;
+}</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_16">
+               <item>
+                <widget class="QPushButton" name="DeleteSelectedPlaylistButton">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>70</width>
+                   <height>70</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(202, 79, 87);
+border-radius: 35px;
+font: 25pt &quot;MS Gothic&quot;;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>🗑️</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_9">
+       <layout class="QVBoxLayout" name="verticalLayout_14">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="widget_11" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 1, 0, 255), stop:1 rgba(182, 16, 53, 255));</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_12" stretch="1,4">
+             <property name="spacing">
+              <number>3</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_12" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0.21, y1:0.142273, x2:0.773, y2:1, stop:0 rgba(59, 0, 37, 255), stop:1 rgba(84, 7, 59, 255));
+border: none;</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_13" stretch="0,0">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>10</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>3</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>10</number>
+                  </property>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_8">
+                    <property name="spacing">
+                     <number>20</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>10</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="PlaylistBack">
+                      <property name="styleSheet">
+                       <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                      </property>
+                      <property name="text">
+                       <string> 🡠 </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_2">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>100</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="PlayPlaylist">
+                      <property name="styleSheet">
+                       <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                      </property>
+                      <property name="text">
+                       <string>⯈</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="AddTrackToPlaylist">
+                      <property name="styleSheet">
+                       <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                      </property>
+                      <property name="text">
+                       <string>𝅘𝅥𝅮+</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_21">
+                    <property name="leftMargin">
+                     <number>30</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="PlaylistName">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Segoe UI Semibold</family>
+                        <pointsize>18</pointsize>
+                        <weight>7</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel{
+	border: none;
+	font: 63 18pt &quot;Segoe UI Semibold&quot;;
+	color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Название плейлиста</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="PlaylistInfo">
+                      <property name="styleSheet">
+                       <string notr="true">QLabel{
+	border: none;
+	font: 63 12pt &quot;Segoe UI Semibold&quot;;
+	color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>30 треков | 2:40:05</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QListWidget" name="PlaylistTracks">
+               <property name="styleSheet">
+                <string notr="true">QListWidget {
+    show-decoration-selected: 1;
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QListWidget::item:alternate {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+
+QListWidget::item:selected {
+	background-color: rgba(255, 255, 255, 40);
+	border: none;
+}
+
+QListWidget::item:hover {
+	background-color: rgba(255, 255, 255, 20);
+	border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+	background-color: rgb(148, 13, 41);
+    width: 7px;
+    margin: 0px 0 0 0;
+	value:10
+}
+
+QScrollBar::handle:vertical {
+	background-color: rgb(173, 68, 74);
+    min-height: 5px;
+    max-height: 6px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+    border: none;
+}</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_10">
+       <layout class="QVBoxLayout" name="verticalLayout_22">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="widget_5" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(34, 1, 0, 255), stop:1 rgba(182, 16, 53, 255));</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_19">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_20" stretch="1,0,0">
+             <property name="spacing">
+              <number>3</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_6" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(58, 68, 76);
+border: none;</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,7,0">
+                  <property name="spacing">
+                   <number>10</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>10</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>15</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="TrackToAddBack">
+                    <property name="styleSheet">
+                     <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>🡠</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_3">
+                    <property name="styleSheet">
+                     <string notr="true">QLabel{
+	border: none;
+	font: 63 16pt &quot;Segoe UI Semibold&quot;;
+	color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>Выберите треки</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="ClearTracksSelection">
+                    <property name="styleSheet">
+                     <string notr="true">border: none;
+font: 63 24pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>🗑️</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QListWidget" name="TracksToAdd">
+               <property name="styleSheet">
+                <string notr="true">QListWidget {
+    show-decoration-selected: 1;
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QListWidget::item:alternate {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+
+QListWidget::item:selected {
+	background-color: rgba(255, 255, 255, 40);
+	border: none;
+}
+
+QListWidget::item:hover {
+	background-color: rgba(255, 255, 255, 20);
+	border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+	background-color: rgb(148, 13, 41);
+    width: 7px;
+    margin: 0px 0 0 0;
+	value:10
+}
+
+QScrollBar::handle:vertical {
+	background-color: rgb(173, 68, 74);
+    min-height: 5px;
+    max-height: 6px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+	color: rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+    width: 0px;
+	value:0
+}
+
+QScrollBar::handle:horizontal {
+	background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+QScrollBar::add-line:horizontal {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    border: none;
+	background-color: rgba(255, 255, 255, 0);
+    height: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+    border: none;
+}</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_13">
+               <item>
+                <widget class="QPushButton" name="AddSelectedTracksToPlaylistButton">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>70</width>
+                   <height>70</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(202, 79, 87);
+border-radius: 35px;
+font: 25pt &quot;MS Gothic&quot;;
+</string>
+                 </property>
+                 <property name="text">
+                  <string>✔</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="widget_13" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.506, fy:0.681818, stop:0.00568182 rgba(37, 0, 22, 255), stop:1 rgba(55, 4, 37, 255));</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_15" stretch="2,8,3,0">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>15</number>
+           </property>
+           <property name="topMargin">
+            <number>10</number>
+           </property>
+           <property name="rightMargin">
+            <number>15</number>
+           </property>
+           <property name="bottomMargin">
+            <number>20</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="0,5,0">
+             <property name="leftMargin">
+              <number>15</number>
+             </property>
+             <property name="topMargin">
+              <number>10</number>
+             </property>
+             <property name="rightMargin">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="TrackBack">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+               </property>
+               <property name="text">
+                <string>🡠</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QPushButton" name="GetInfo">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+               </property>
+               <property name="text">
+                <string>?</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_15" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>200</width>
+               <height>200</height>
+              </size>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_16">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_14" native="true">
+             <property name="styleSheet">
+              <string notr="true">border:none;
+background-color: rgba(255, 255, 255, 0);</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_18">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_11">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="PreviousTrackButton">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>⯇⯇</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="PauseTrackButton">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI Semibold</family>
+                    <pointsize>26</pointsize>
+                    <weight>7</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>⯈</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="NextTrackButton">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border: none;
+font: 63 26pt &quot;Segoe UI Semibold&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>⯈⯈</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_12" stretch="1,5,1">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="CurrentTrackTime">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel{
+	border: none;
+	font: 63 12pt &quot;Segoe UI Semibold&quot;;
+	color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>0:00</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="TrackProgressBar">
+                  <property name="styleSheet">
+                   <string notr="true">QSlider::groove:horizontal { 
+	background-color: rgb(115, 115, 115);
+	border: 0px solid #424242; 
+	height: 2px; 
+	border-radius: 4px;
+}
+
+QSlider::handle:horizontal { 
+	background-color: rgb(197, 82, 94);
+	width: 10px; 
+	height: 10px; 
+	line-height: 20px; 
+	margin-top: -5px; 
+	margin-bottom: -5px; 
+	border-radius: 5px; 
+}
+</string>
+                  </property>
+                  <property name="maximum">
+                   <number>1000</number>
+                  </property>
+                  <property name="pageStep">
+                   <number>1</number>
+                  </property>
+                  <property name="value">
+                   <number>0</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="TrackTime">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel{
+	border: none;
+	font: 63 12pt &quot;Segoe UI Semibold&quot;;
+	color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>6:05</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="TrackNameInTrackMenu">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 255, 255);
+border: none;
+border-radius: 25px;
+font: 63 14pt &quot;Segoe UI Semibold&quot;;
+background-color: rgba(255, 255, 255, 0);</string>
+             </property>
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
